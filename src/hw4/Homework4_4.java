@@ -17,10 +17,10 @@ public class Homework4_4 {
 		int borrowMoney = money.nextInt();
 		System.out.print("有錢可借的員工編號：");
 		
-		int count=0;
+		int count = 0;
 		
-		for(int i=0; i<coworker.length; i++) {
-			if (coworker[i][1]>=borrowMoney) {
+		for(int i = 0; i < coworker.length; i++) {
+			if (coworker[i][1] >= borrowMoney) {
 				System.out.print(coworker[i][0]+" ");
 				count++;
 			}

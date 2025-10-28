@@ -9,7 +9,7 @@ public class Homework4_1 {
 		
 		int sum = 0, average;
 		
-		for(int i=0; i<x.length; i++) {
+		for(int i = 0; i < x.length; i++) {
 			sum += x[i];
 		}
 		
@@ -20,7 +20,7 @@ public class Homework4_1 {
 		
 		Arrays.sort(x);
 		
-		for(int i=0; i<x.length; i++) {
+		for(int i = 0; i < x.length; i++) {
 			if(x[i] < average) {
 				System.out.print(x[i]+" ");
 			}

@@ -27,15 +27,15 @@ public class Homework4_6 {
 		
 		int[] count = new int[8];
 		
-		for(int i = 0; i<score.length; i++) {
-			for(int j=0; j<score2[i].length; j++) {
-				if ((int)score2[i][7] == (int)score[i][j]) {
+		for(int i = 0; i < score.length; i++) {
+			for(int j = 0; j < score2[i].length; j++) {
+				if (score2[i][7] == score[i][j]) {
 					count[j]++;
 				}
 			}
 		}
 		
-		for(int i=1; i<=8; i++) {
+		for(int i = 1; i <= 8; i++) {
 			System.out.println(i+"號同學考最高分的次數為"+count[i-1]+"次");
 		}
 		
