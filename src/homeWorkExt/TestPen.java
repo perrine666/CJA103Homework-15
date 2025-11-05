@@ -1,0 +1,17 @@
+package homeWorkExt;
+
+public class TestPen {
+	
+	public static void main(String[]args) {
+		
+		Pen[] p = new Pen[2];
+		
+		p[0] = new Pencil ("SKB",30);
+		p[1] = new InkBrush("毛筆",100);
+		
+		for(int i = 0; i < p.length; i++) {
+			p[i].write();
+			System.out.println(p[i].getPrice());
+		}
+	}
+}
